@@ -2,22 +2,6 @@
 <html lang=de>
 
 <head>
-
-	<div>
-		<hr style='border-top: 5px solid #bbb'>
-		<h1>Physik Abitur Lernwebsite</h1>
-		<hr style='border-top: 5px solid #bbb'>
-	</div>
-	
-	<div>
-		<a href="#Mechanik">I.) Mechanik</a> <br>
-		<a href="#Wellenoptik">I.) Wellenoptik</a> <br>
-		<a href="#Elektrodynamik">I.) Elektrodynamik</a> <br>
-		<a href="#Quantenphysik">I.) Quantenphysik</a> <br>
-	</div>
-
-	<hr style='border-top: 5px solid #bbb'>
-
 	<style>
 		.section {
 			width: 100vm;
@@ -33,42 +17,119 @@
 			background-color: transparent;
 			text-decoration: none;
 		}
-
 		a:visited {
 			color: pink;
 			background-color: transparent;
 			text-decoration: none;
 		}
-
 		a:hover {
 			color: red;
 			background-color: transparent;
 			text-decoration: underline;
 		}
-
 		a:active {
 			color: yellow;
 			background-color: transparent;
 			text-decoration: underline;
 		}
+
+		.sub-links {
+			font-size: 1rem;
+			margin-left: 2rem;
+		}
+		
+		.main-links {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+			font-size: 2.5rem;
+			border-bottom: 0.125rem solid #bbb;
+			border-top: 0.125rem solid #bbb;
+		}
+
+		.themen-links {
+			font-size: 1.5rem;
+			margin-left: 2rem;
+		}
+
+		h2 {
+			font-size: 4rem;
+		}
+		
+		body {
+			background: #333;
+			color: white;
+			margin-left: 4rem;
+			margin-right: 4rem;
+		}
 	</style>
-	
 </head>
 
-<body style='background: #333; color: white;'>
-	<div>
+<body>
+
+	<div class='menue' id='menue'>
+		<div>
+			<hr style='border-top: 0.125rem solid #bbb'>
+			<h1 style='font-size: 4rem'>Physik Abitur Lernwebsite</h1>
+			<hr style='border-top: 0.125rem solid #bbb'>
+		</div>
+
+		<div class='main-links'>
+			<a href="#Mechanik">I.) Mechanik</a><br>
+				<div class='themen-links'>
+					<a href="#Mechanik1">I.I.) Schwingungen</a><br>
+						<div class='sub-links'>
+						<a href="#Mechanik1">I.i)   Die Schwingung</a><br>
+						<a href="#Mechanik2">I.ii)  Die harmonische Schwingung</a><br>
+						<a href="#Mechanik3">I.iii) Das Fadenpendel</a><br>
+						<a href="#Mechanik4">I.iv)  Das Federpendel</a><br>
+						<a href="#Mechanik5">I.v)   Die Schwingung</a><br>
+						<a href="#Mechanik6">I.vi)  Erzwungen Schwingungen</a><br>
+						<a href="#Mechanik7">I.vii) Gedämpfte Schwingungen</a><br>
+					</div>
+					<a href="Mechanik2">I.II.) Wellen</a><br>
+						<div class='sub-links'>
+						<a href="">II.i) Die mechanische Welle</a><br>
+						<a href="">II.ii) Diagramme</a><br>
+						<a href="">II.iii) Wellenausbreitung</a><br>
+						<a href="">II.iv) Wellengleichung</a><br>
+						<a href="">II.v) Wellenüberlagerung</a><br>
+						<a href="">II.vi) Stehende Welle</a><br>
+						<a href="">II.vii) Schwebung</a><br>
+					</div>
+				</div>
+			<a href="#Wellenoptik">I.) Wellenoptik</a> <br>
+			<a href="#Elektrodynamik">I.) Elektrodynamik</a> <br>
+			<a href="#Quantenphysik">I.) Quantenphysik</a> <br>
+		</div>
+
+
 	</div>
+
+
+
+
 	<div class='section' id='Mechanik'>
-		<p>Mechanik</p>
+		<h2>I.) Mechanik</h2>
+
+		<div id='Mechanik1'>
+			<h3>I.i) Die Schwingung </h3>
+			<p>Eine Schwingung ist eine sich wiederholende 
+			Bewegung eines Systemes, welches sich nach der 
+			Periodendauer *T* wieder in den Grundzustand 
+			zuruekkehrt.
+			</p><br>
+			<p>T = 1 / f</p>
+		</div>
+
 	</div>
 	<div class='section' id='Wellenoptik'>
-		<p>Wellenoptik</p>
+		<h2>II.) Wellenoptik</h2>
 	</div>
 	<div class='section' id='Elektrodynamik'>
-		<p>Elektrodynamik</p>
+		<h2>III.) Elektrodynamik</h2>
 	</div>
 	<div class='section' id='Quantenphysik'>
-		<p>Quantenphysik</p>
+		<h2>IV.) Quantenphysik</h2>
 	</div>
 	
 </body>
