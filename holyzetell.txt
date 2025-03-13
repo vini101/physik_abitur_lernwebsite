@@ -1,0 +1,186 @@
+###################################################################################################
+Physik Lernzettel:
+###################################################################################################
+
+	Themen:
+		I.)		Mechanik
+		II.)	Wellenoptik
+		III.)	Elektrodynamik
+		IV.)	Quantenphysik
+
+###################################################################################################
+	I.) DIE MECHANIK.
+###################################################################################################
+
+---------------------------------------------------------------------------------------------------
+	I.I.)		SCHWINGUNGEN:
+---------------------------------------------------------------------------------------------------
+
+	i.)			Die Schwinung 
+		Eine Schwingung ist eine sich wiederholende Bewegung eines Systemes, welches
+		sich nach der Periodendauer *T* wieder in den Grundzustand zuruekkehrt.
+		T = 1 / f
+
+	ii.)		Die Frequenz:
+		Die Frequenz ist die Schwingungsanzahl pro Sekunde, sie wird in Herz angegeben.
+		f = 1 / T
+
+	iii.)		Die Amplitude: 
+		Die Amplitude ist der maximale Abstand der schwingenden Koerpers zum Ruhezustand.
+
+	iv.)		Die Winkelgeschwindigkeit:
+		Die Winkelgeschwindigkeit gibt an, wie viele Winkele bei der Kreisbewegung 
+		pro Sekunde zurückgelegt werden.
+		ω = 2 π f
+
+	v.)			Die harmonische Schwinung:
+
+	vi.)		Das Fadenpendel:
+		Differenzialgleichung:
+			F = m s''(t)			# Newtonische Kraft 
+			F = -m g sin(α(t))		# Kraft, die auf die Masse des Fadenpendels nach Winkel wirkt.
+
+			α(t): gibt den Winkel zum Zeitpunkt t an 
+
+			=> F = F
+			=> m s''(t) = -m g sin(α(t)) | /m  
+			=> s''(t) = -g sin(α(t))
+
+			Die Kreisbahn des Fadenpendels hat den Umfang U = 2 π l 
+
+			=> s(t) = (α(t) / 360°) * U
+			=> s(t) = a(t) * l
+			=> α(t) = s(t) / l
+
+			s''(t) = -g sin(s(t) / l)
+
+			Die Kleinwinkelnährung:
+			s''(t) = -g sin(s(t) / l) ≈ - (g/l) s(t)
+			=> s''(t) = -(g/l) s(t)
+
+			Ansatz:
+			s(t) = A sin(√(g/l) + ϕ)
+
+	vii.)	Das Federpendel:
+		Differenzialgleichung:
+			F = -D s(t)			# Hooksches Gesetz 
+			F = m s''(t)		# Newtonische Kraft
+
+			=> F = F 
+			=> -D s(t) = m s''(t)
+			=> s(t) = -(D/m) s''(t)
+
+			Ansatz 1: 
+			=> s''(t) = A cos(ωt)
+			=> s(t) = -Aω² cos(ωt)
+
+			Ansatz 2:
+			=> s(t) = -(D/m) * s''(t)
+			=> s(t) = -(D/m) * cos(ωt)
+
+			Ansatz 1 & 2:
+			=> s(t) = s(t)
+			=> -(D/m) * cos(ωt) = -Aω² cos(ωt)
+			=> ω = √(D/m) 
+
+			==> s(t) = A * cos(√(D/m) * t)
+
+
+	viii.)	Erzwungene Schwinungen:
+		Führt man einem zur Schwingung fähigen System, in der Frequenz Energie zur in der 
+		es von sich aus Schwingen würde, wird es zum Schwingen angeregt.
+		Die Frequenz bei des es zum schwingen anfängt nennt sich Resonanz Frequenz.
+
+		Liegt keine oder nur geringe Reibung vor wird die Energie des Systems immer größer man 
+		nennt die Resonanzkatastrophe.
+
+		Phasenunterschiede: 
+			Erzwingt man eine Schwinung eines Systems mit einer Frenquenz f, so gibt es 3 
+			Grenzfälle
+
+			f << f0 ,		Erreger und Schwinger schwingen in gleicher Phase amplitudengleich 
+			f ≈ f0 ,		Erreger eilt dem Schwinger etwa (π/2) Phase voraus, die Amplitude wird immer größer 
+			f >> f0,		Erreger und Schwinger schwingen gegensätzlich, die Amplitude ist sehr klein
+
+
+	ix.)		Gedämpte Schwingungen:
+		Schwingfall: 
+			Schwinung ist in der From sin(ωt) k^t, wobei k eine positive Konstante k < 1 ist, heißt die 
+			Schwinung wird.
+
+		Aperiodischer Grenzfall:
+			Dämpfung ist groß genug, dass gerade keine Schwinung mehr stattfindet, sondern der Schwinger sich 
+			von maximaler Auslenkung nur richtung Mittellage bewegt und da bleibt.
+
+		Kriechfall:
+			Dämpfung ist noch größer, Schwinger braucht noch länger um zur Mittellage zu kommen.
+
+
+---------------------------------------------------------------------------------------------------
+	I.II.)		WELLEN:
+---------------------------------------------------------------------------------------------------
+
+	i.)			Eine mechanische Welle: 
+		Eine Welle ist eine sich entlang eines Mediums (in 1D, 2D, 3D) ausbreitende Störung, oft eine 
+		Schwingung. Sie breitet sich mit der Geschwindigkeit c aus. 
+
+		Verläuft die Schwingung senkrecht zur Ausbreitungsrichtung, ist die Welle transversal, 
+		sonst longitudinal.
+
+
+	ii.)		Verschiedene Diagramme: 
+		[...]
+
+	iii.)		Wellenausbreitung: 
+		Eine Welle wird durch eine harmonische Schwingung mit Periodendauer T erregt.
+		Ihre Ausbreitungsgeschwindigkeit ist T. 
+		Jeder Punkt auf der Welle macht die selbe Schwigung, nur mit Zeitverzögerung. 
+
+		λ = Tc = (c/f) 
+
+	iv.)		Wellengleichung: 
+		Die Wellengleichung gibt den Zustand eines Punktes in Abhängigkeit des Zeitpunkts 
+		und des Ortes an. 
+		=> s(x, t) = A sin(ω(t - x/c))
+
+		Umgeformt: 
+		=> s(x, t) = A sin(2π (t/T - x/λ) + ϕ)
+
+
+	v.)		Wellenüberlagerung: 
+		Wellen durchlaufen sich im Allgemeinen ungestört, nach dem Überlagerungsbereich ist 
+		der Wellenverlauf unverändert.
+
+		Im Überlagerungsbereich werden für jeden Punkt im Wellenträger die Auslenkungen der einzelnen
+		Wellen addiert.
+
+		Im Zeigermodell ist der Zeiger der Überlagerung die Summe der Zeiger der beiden Wellen.
+
+
+	vi.)		Stehende Welle: 
+		Sie tritt bei der Überlagerung zweier Wellen mit gleicher Wellenlänge aus unterschiedlichen 
+		Richtungen auf. 
+
+		Es gibt ortsfeste Punkte, an denen der Wellenträger start schwingt und Orte, an denen der Wellenträger 
+		überhaupt nicht mehr schwingt. 
+		
+		Zwei Bewegungsbäuche haben den gleichen Abstand wie von einer ursächlichen Welle, eine halbe Wellenlänge.
+
+	vii.)		Schwebung: 
+		Überlagern sich zwei Wellen mit minimalen Frequenzunterschied, sind die Phasenunterschiede nicht mehr an jedem 
+		Ort konstant, sondern verschieben sich kontinuierlich. 
+
+		Der Ortsfeste Beobachter hört als Überlagerung einen Ton mit mittlerer Frenquenz der beiden Sender, der mit halben 
+		Frequenzunterschied lauter und leiser wird. 
+
+
+
+
+
+
+
+
+
+
+
+
