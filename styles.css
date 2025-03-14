@@ -1,12 +1,21 @@
 .section {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	background: #444; 
 	color: white;
 	text-align: left;
 	border-radius: 2rem;
+}
+
+.part-section {
+	background: #545454;
+	padding-left: 1rem;
+	padding-right: 1rem
+	color: white;
 }
 
 a:link {
@@ -63,21 +72,23 @@ h3 {
 body {
 	background: #333;
 	color: white;
-	margin-left: 4rem;
-	margin-right: 4rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 .title-container {
-	margin-bottom: 3rem;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+
 	background: #444; 
 	color: white;
+
 	border-radius: 2rem;
+
 	padding-left: 3rem;
 	padding-right: 3rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .title {
@@ -87,8 +98,13 @@ body {
 
 .content {
 	margin-top: 2rem;
-	margin-left: 2rem;
-	margin-right: 2rem;
+	margin-bottom: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-radius: 2rem;
+	background: #545454;
 }
 
 .sub-section {
