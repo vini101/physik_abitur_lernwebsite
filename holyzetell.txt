@@ -257,7 +257,7 @@ Physik Lernzettel:
 		sin(α) = (λ(k-0.5)) / g, k∈ℤ
 
 	6.) Mehrfachspalte: 
-		Trfft kohärentes Licht mit der Wellelänge λ auf einen Mehrfachspalt mit Spaltanzahl m und mit Spaltabstand g, ergeben 
+		Trifft kohärentes Licht mit der Wellelänge λ auf einen Mehrfachspalt mit Spaltanzahl m und mit Spaltabstand g, ergeben 
 		sich die 1ten / 2ten / ... / kten Maxima im Winkel α zum Lot mit.
 
 		sin(α) = (kλ) / g, k∈ℤ
@@ -632,7 +632,7 @@ Physik Lernzettel:
 		[DIAGRAMM]
 
 	2.) Photonen: 
-		Wie oben schon beschrieben haben Photonen die Energie 
+		Wie oben schon beschrieben haben Photonen Energie und diese ist abhänig von der Frenquenz. 
 
 		W(f) = hf 
 
@@ -712,7 +712,7 @@ Physik Lernzettel:
 		Mattschwarze strahlen besser. 
 
 	8.) Frank-Herz Versuch: 
-		Die Energieniveaus der Elektronen um Atome sind Quantisiert, es gibt nur ganz bestimmte mögliche 
+		Die Energieniveaus der Elektronen um Atome sind quantisiert, es gibt nur ganz bestimmte mögliche 
 		Bindungsenergien. 
 		Hat ein anfliegendes Elektron die benötigte Energie um das äußerste Hüllenelektron in ein höheres 
 		Energieniveau anzuheben, kann es die Energie abgeben, wird gebremst und fliegt mit der Restenergie weiter. 
@@ -784,7 +784,7 @@ Physik Lernzettel:
 	13.) Vakuumpolarisation: 
 		Sogar in absoluaten Vakuum kann es wegen der Energieunschäre eine kurz Flukutation geben. 
 		Die Energie Materialisiert sich als Materie in From eine Elektron-Positron Paares. 
-		Das entsteht, und vernichtet sich gleich wieder. 
+		Das entsteht, und vernichtet sich gleich wieder. Heißt Energie ist nur im Mittel erhalten.
 	
 	14.) Der unendlich hohe, lineare Potentialtopf. 
 
