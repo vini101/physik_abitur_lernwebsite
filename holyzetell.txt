@@ -161,17 +161,633 @@ Physik Lernzettel:
 		Sie tritt bei der Überlagerung zweier Wellen mit gleicher Wellenlänge aus unterschiedlichen 
 		Richtungen auf. 
 
-		Es gibt ortsfeste Punkte, an denen der Wellenträger start schwingt und Orte, an denen der Wellenträger 
-		überhaupt nicht mehr schwingt. 
+		Es gibt ortsfeste Punkte, an denen der Wellenträger start schwingt und Orte, an 
+		denen der Wellenträger überhaupt nicht mehr schwingt. 
 		
-		Zwei Bewegungsbäuche haben den gleichen Abstand wie von einer ursächlichen Welle, eine halbe Wellenlänge.
+		Zwei Bewegungsbäuche haben den gleichen Abstand wie von einer ursächlichen 
+		Welle, eine halbe Wellenlänge.
 
 	vii.)		Schwebung: 
-		Überlagern sich zwei Wellen mit minimalen Frequenzunterschied, sind die Phasenunterschiede nicht mehr an jedem 
+		Überlagern sich zwei Wellen mit minimalen Frequenzunterschied, sind 
+		die Phasenunterschiede nicht mehr an jedem 
 		Ort konstant, sondern verschieben sich kontinuierlich. 
 
-		Der Ortsfeste Beobachter hört als Überlagerung einen Ton mit mittlerer Frenquenz der beiden Sender, der mit halben 
-		Frequenzunterschied lauter und leiser wird. 
+		Der Ortsfeste Beobachter hört als Überlagerung einen Ton mit 
+		mittlerer Frenquenz der beiden Sender, der mit halben Frequenzunterschied lauter und leiser wird. 
+
+
+
+###################################################################################################
+	II.) DIE WELLENOPTIK 
+###################################################################################################
+
+	1.) Elektromagnetische Wellen:
+		Eine Elektromagnetische Welle ist eine sich ausbreitende Störung im elektrischen und 
+		magnetischen Feld.
+		Elektromagnetische Wellen benötigen kein Medium zur Ausbreitung, sie können dies auch im 
+		Vakuum.
+		Materialien können die Ausbreitung aber verlangsamen bzw. beinflussen und auch blockieren.
+		EM-Wellen können durch sich bewegende Magneten oder sich bewegende Ladung erzeugt werden.
+		Elektromagnetische Wellen breiten sich mit Lichtgeschwindigkeit c aus. 
+		In Materie wird sie ausgebremst, wie start hängt von der Frequenz ab.
+		Glas mit optischer Dichte 1.3 bremst Licht um den Faktor 1.3. 
+		Die optische Dichte n auch Brechzahl genannt ist eine Körpereigentschaft 
+		lichtdurchlässiger Körper. Sie gibt an wie start Licht langsamer wird. 
+
+		Snelliussches Brechungsgesetz:
+		Trifft Licht auf Material mit opt. Dicht n1 im Winkel α1 auf ein Material mit optischer
+		Dichte n2, so gilt für den Austrittwinkel α2:  
+			n1 sin(α1) = n2 sin(α2)
+
+		Fermatsches Prinzip: 
+			Lichtausbreitung folt dem Fermatschen Prinzip:
+			Der Lichtweg/ die Brechungswinkel sind immer so, dass die Laufzeit des 
+			Lichtsignals minimal ist. 
+
+		Brechung: 
+		Die Brechzahl eines Stoffes kann durchaus von der Frequenz der einfallenden Elektromagnetischen
+		Strahlung abhängen. 
+
+		Sogar Licht verschiedener Farben wird leicht unterschiedlich start geborchen. 
+		Der Zusammenahnd ist aber nicht linear. Teilweise werden manche Frenquenzen sogar fast ungestört 
+		durchgelassen, andere komplett blockiert. 
+
+
+	3.) Polaristation: 
+		Licht verhält sich wie eine Transversalwelle. 
+		Man kann mit Polaristationsfiltern sogar Polarisationsrichtungen herausfiltern.
+		Tritt eine senkrecht schwingende Welle auf einen Filter, der nur waagrechte
+		Polarisierung passieren lässt, kommt kein Licht durch.
+		Man kan die Polarisationsrichtung auch mit Filtern beeinflussen.
+		Ein Filter lässt das Licht anteilig gemäß der Polarisationsrichtung durch. 
+		Er wrid erst bei senkrechtem Winkel undruchlässig.
+		Durch mehrere Filter kann man die Polarisationsrichtung beliebig drehen ohne 
+		Totalverlust. 
+
+	4.) Interferenz:
+		Huygenssche Prinzip: Jeder Punkt einer Welle kann wieder als Ausgangspunkt einer Elementarwelle
+		betrachtet werden. Trifft ein Laser auf einen Doppelspal, wirkt dieser daher wie zwei identisch
+		sendende Lichtquellen.
+
+		Interferenzphänome bei Licht nennt man Beugung, es ergbit sich durch konstruktive/destruktive
+		Überlagerung ein Beleuchtungsbild, das deutlich vom Spaltmuster abweichen kann.
+		Hierfür muss der Wellenerreger aber sehr gleichmäßige Wellen und lange Wellenzüge senden
+		man spricht von großer Kohärenzlänge. Licht von normalen Lampen sendet in der Regel chaotische 
+		Wellenfetzen, hier enstehen Beugungsphänomene schwerer. 
+
+		Maxima beim Beleuchtungsbild tretten auf, wenn der Wegunterschied der Sender an einem Punkt 
+		ein ganzzahliges Vielfaches der Wellenlänge /lambda beträgt. 
+		Minima tretten auf, wenn der Wegunterschied der Sender an einem Punkt genau ein ganzzahliges 
+		Vielfaches der Wellenlänge plus die halbe Wellenlänge beträgt. 
+
+		Es gibt zwei Wege Beugung zu Berechnen: 1.) Fresnel-Beugung, 2.) Fraunhofer-Beugung
+		1.) Bei der Fresnel-Beugung rechnet man genau mit dem Pythagoras um die Maxima und Minima 
+		zu berechnen.
+		2.) Bei der Fraunhofer-Beugung rechnet man mit der Kleinwinkelnährung, diese kann man nur benutzen, 
+		wenn der Schrimabstand größer als viel Spaltbreiten sind. 
+
+	5.) Doppelspalt: 
+		Trifft kohärentes Licht mit der Wellenlänge λ auf einen Doppelspalt mit Spaltabstand g, ergeben
+		sich die 1ten / 2ten / ... / kten Maxima im Winkel α zum Lot mit: 
+
+		sin(α) = (kλ) / g, k∈ℤ
+		
+		und die jeweiligen Minima bei:
+
+		sin(α) = (λ(k-0.5)) / g, k∈ℤ
+
+	6.) Mehrfachspalte: 
+		Trfft kohärentes Licht mit der Wellelänge λ auf einen Mehrfachspalt mit Spaltanzahl m und mit Spaltabstand g, ergeben 
+		sich die 1ten / 2ten / ... / kten Maxima im Winkel α zum Lot mit.
+
+		sin(α) = (kλ) / g, k∈ℤ
+
+		Bei Mehrfachspalten gibt es immer Stellen, wo sich alles außer einem Spaltanteil auslöschen, damit kleine Nebenmaxima. 
+		Die Anzahl an Nebenmaxima lässt sich mit m - 2 berechnen. Die Nebenmaxima verlieren aber an Intensität, je höher die 
+		Spaltanzahl n ist. 
+
+	7.) Gitter: 
+		Trfft kohärentes Licht mit der Wellelänge λ auf Gitter und mit Gitterkonstante g, ergeben 
+		sich die 1ten / 2ten / ... / kten Maxima im Winkel α zum Lot mit.
+
+		sin(α) = (kλ) / g, k∈ℤ
+
+		Zwischen diesen Maximas ist die Intensität fast 0. 
+
+	8.) Dünne Schichten und Kristalle: 
+		An einer dünnen Schicht reflektiertes Licht zeigt Beugungsphänomene: Die an beiden 
+		Grenzflächen reflektierten Lichtanteile können interferieren.
+		An der Grenzfläche von optisch dünn auf optisch dicht gibt es einen Phasensprung von pi/2.
+
+		Bei Kristalle gibt es ein vergleichbares Beugungsbild, nur ohne Phasensprung oder Brechung. 
+
+	9.) Bragg-Reflektion:
+		Bei Reflexion kohärenter monochromatischer EM-Wellen an dünnen Schichten mit Abstand d gibt 
+		es Reflexions-Maxima unter den Winkeln zum Lot bei:
+
+		2d cos(α) = kλ
+
+		Das sind die sogennanten Glanzwinekl oder Braggwinkel. 
+		Genau dazwischen findet keine Reflexion statt. 
+
+	10.) Einzelspalt: 
+		Jeder Punkt innerhalb eines Spaltes ist nach Huygens Ausgangspunkt einer neuen Welle. 
+		Je nach Winkel kann es zu Punkte im Spalt andere Punkte im Spalt geben, mit dem es beim Schrim 
+		destruktive Interfenz gibt. 
+
+		Ist der Wegunterschied der Randpunkte zu einem Punkt auf dem Schrim kλ, hat auch jeder andere Punkt 
+		einen Auslöschpartner, es liegt ein Minimum vor. 
+
+		Trifft kohärentes, monorchromatisches Licht auf einen Einzelspalt der Breite b, ergibt 
+		sich ein Beugungsbild, der unter den Winkel: 
+
+		sin(α) = kλ / b, k∈ℤ
+
+		Intensitätsminima hat.
+		Einzelspaltminima spielen auch bei Doppelspalt/Gittern eine Rolle. 
+	
+		Unter den Winkeln, bei denen die Einzelspalte Minima haben, gibt es dann beim Gitter auch 
+		Minima, auch wenn es ein Gittermaximum wäre. 
+
+	11.) Lochblende: 
+		Das Beugungsbild beim Durchstrahlen einer Lochblende ist ein Muster konzentrischer 
+		Ringe.
+		Die dunklen Ringe sind die Pendants zu den Interferenzminima beim Einzelspalt. 
+		Die Winkelformel ist mit leichter Abweichung vergleichbar mit der für Einzelspalte. 
+
+	12.) Inverse Spaltbilder: 
+		Wird das Spaltbild invertiert, ändert sich das Beugungsbild prinzipiell nicht. 
+		Insbesondere gibt es in der Mitter hinter dem kohärent beleuchteten Punkt ein Maximum 
+		0ter Ordnung. Den Poisson-Fleck. 
+
+	13.) Lasergranulation / (Speckle). 
+		Trifft koheräntes Licht auf eine rauer Oberfläche, deren Unebenheiten in der 
+		Größenordnung der Wellelänge liegeben interferieren die von den 
+		Unebenheiten mit Wegunterschied gestreuten Lichtanteile. 
+		Im Auge des Betrachter entsteht ein chaotisches Beugungsbild, das vom 
+		Beobachtungsort abhängt. 
+
+
+###################################################################################################
+	III.) DER ELEKTROMAGNETISMUS
+###################################################################################################
+
+	1.) Das E-Feld: 
+		Das Elektrische Feld umgibt Körper mit Ladung, es wirkt auf Ladung. 
+		Es ist so gerichtet, dass sich Ladungen mit gleichem Vorzeichen abstoßen, 
+		mit verscheidenem Vorzeichen anziehen. 
+
+		Das Coulomb-Gesetz:
+
+		Eine Ladung q erzeugt im Abstand r ein Elektrisches Feld mit der 
+		Felstärke.
+
+		E=(1/4πϵ) (q/r²)
+		
+		Auf eine Probeladung q wirkt die Kraft:
+
+		F=qE
+
+	2.) Das Elektrische Potential: 
+
+		W=Fs
+		W=∫F(s)ds
+
+		Elektrisches Potential ist dann Potentielle Energie pro Coulomb Ladung an 
+		diesem Ort relativ zum einem 0-Potential. 
+
+		Φ(r) = (1/4πϵ) (Q/r)
+
+		Um eine Probeladung q von Abstand r zu r zu bewegent benötigt man die Energie: 
+
+		W(r, r)=q(Φ(r)-Φ(r))
+
+
+	3.) Milikanversuch:	
+		Man sprühe Öltröpchen, die zufällig geladen sind in eine bekanntes E-Feld.
+		Aus der Bewegung kann man auf Anziehungskraft schließen damit auf die Ladung.
+
+		Es gibt eine kleinste Ladungsmenge: die Ladung eines Elektrons.
+
+
+	4.) Elektriziät: 
+		Elektrizität ist der Fluss von Ladungsträgern meist Elektronen auf Grund eines 
+		Potentialunterschiedes. Der Potentialunterschied wird in V angegeben.
+		Die Anzahl an Fliesenden Elektronen in C / s auch als A bekannt. 
+		Bei einem Potentialunterschied V wird der fliesende Strom durch den Wiederstand R 
+		begrenzt. 
+
+		Im Elektrischen Stromkreis addieren sich Widerstände: 
+		In Reihe: Rges = R1 + R1
+		In Parallel: Rges = 1 / Rs,  Rs = 1/R1 + 1/R2 + ... + 1/Rn
+	
+	
+	5.) Influenz: 
+		Ein Elektrisches Feld kann die Ladungsträger in einem auch ungeladenen Körper verschieben. 
+		(Elektronen an einer Seite anhäufen) 
+		Diesen Vorgang nennt man Influenz. 
+		In homogenen E-Feldern werden z.B. Staubkörnchen polarisiert und ausgerichtet. 
+		In inhomogenen E-Feldern können damit auch ungelandene Körper von E-Feld angezogen oder 
+		abgestoßen werden!
+
+		Bei zu starker Influenz können sogar Elektronen ganz weggrissen werden, dieser Vorgang 
+		wird auch Ionisierung genannt. 
+
+	4.) Feldlinienverläufe: 
+		Influenz bewirkt Ladungsverschiebung, sodass Feldlinien immer senkrecht auf 
+		Leiteroberflächen zeigen.
+		Bei Punktladungen. [Digramm]
+		Beim Faradayschen Käfig. [Diagramm]
+		
+
+	5.) Kondensatoren: 
+		Ein Kondensator ist ein elektrisches Bauteil, das bei angelegter Spannung Ladung durch 
+		Influenz speicher. In der Regel auf zwei Seiten, die eine positiv, die andere negativ 
+		geladen, sodass sich die Ladungen gegenseitig anziehen. 
+
+		Die Kapazität C eines Kondensators ist die Ladungsmenge, die por Volt gespeichert 
+		werden kann. 
+
+		C = Q / U 
+
+		Zwei parallele Leiterplatten können als Kondensator verwendet werden, 
+		Negative Ladung der einen Platte zieht positive auf der anderen an, 
+		Ladung lässt sich so als gut speichern. 
+		Die Kapazität eines Kontensators lässt sich auch so berechnen: 
+
+		C = (ϵϵA) / d
+
+		Ein Plattenkondensator hat einen höhere Kapazität, wenn er eine größere Fläche hat,
+		seine Platten näher zusammen sind, oder ein Dielektrikum hinzugefügt wird. 
+
+		Dielektrische Stoffe verstärken die Influezwirkung der Kondensatorplatten aufeinander.
+		Dies erhöt die Kapazität um einen Faktor. 
+
+		Der Verstärkungsfaktor wird mit ϵ bezeichnet, der relativen Permittivität. 
+
+	5.) Kondensatorladung: 
+
+		Differnzialgleichung: Spannungen 
+			Kondensatorentladung:
+			
+			U(t)=RI(t)
+			U(t)=-Q(t)/C
+
+			RI(t) = Q(t)/C
+			Q(t) = -RC I(t)
+
+			Q(t) = -RC Q'(t)
+
+			Ansatz: 
+			Q(t) = Q * e^(-t/RC)
+
+			Daraus ergibt sich für die Entladung:
+			Q(t) = Q * e^(-t/RC)
+
+			und:
+
+			T = ln(2) RC
+
+	6.) Kondensatorentladung:
+		Differnzialgleichung: Spannungen: 
+			Q(t) = Q (1 - e^(-t/RC))
+
+
+	6.) Kondensatorschaltungen: 
+		Bei Parallelschaltungen addieren sich Kapaziäten zur Gesamtkapziät:
+		Cges = C1 + C2 + ... + Cn
+		Bei Reihenschaltungen teil sich U auf und reduziert die Gesamtkapazität: 
+		Cges = 1 / Cs, Cs = 1/C1 + 1/C2 + ... + 1Cn
+
+	7.) Energie eines Kondensators: 
+		Gesammte Energie:
+		W=∫U(t) I(t) dt = ∫ ... dt = 1/2 QU = 1/2 CU²
+
+		Räumliche Energiedichte:
+
+
+	8.) Magnetismus:
+		Magnetfelder sind Wirbelfelder, heißt sie haben keine Quellen und Senken, sondern 
+		schliesen zu sich selbst. 
+
+		Ferromagneten verstärken äußeres Feld, Magnetfeld bleibt aber auch ohne dieses bestehen. 
+		Paramagneten verstärken äußeres Feld und werden von Magneten in die Richtung des stärkeren 
+		Feldes gezogen. 
+		Diamagnetent wirken äußerem Magnetfeld entgegen, werden in Richtugn schwächeren Feldes bewegt, 
+		also abgestoßen. 
+
+		Stromdurchflossene Leiter werden von einem konzentrischen Magnetfeld umgeben. 
+		Die Feldlinien verlaufen vom Norpol zum Südpol. 
+
+		Magnetfelder addieren sich vektoriel. 
+
+	9.) Die Lorentzkraft: 
+		Die Kraft, welche auf einen Stromdurchflossenen Leiter im Magnetfeld wirkt, nennt
+		man Lorentzkraft. Ihre Richtung kann man mit der Linken-Hand-Regel bestimmen. 
+		Sie wirkt nur Senkrecht zur Stromflussrichtung, sonst Vektoraddition.
+
+		F=BIs
+		
+		Die magnetische Flussdichte im Abstand r eines mit dem Strom I durchflossenen Leiters: 
+
+		B=μ/2π * I/r
+
+		Die Lorentzkraft wirkt aber auch auf bewegte Ladung. 
+
+		F=Bqv
+
+	10.) Spulen: 
+		Eine Spule besteht in der Elektrizitätslehre aus einem augewickelstem Leitermaterial.
+		Kenngrößen sind Windungszahl n, Spulenlänge l, Spulenradius r und dem Füllmaterial. 
+
+		Im Inneren einer stromdurchflossenen Spule überlagern sich die Felder aller Drahtstücke 
+		zu einem relativ starken Magnetfeld.
+		Dieses ist in hinreichendem Abstand zu den Spulenende, also am besten bei langen, schmalen
+		Spulen sehr homogen. 
+
+		B=μ0 μr I n/l
+
+	11.) Selbstinduktivität: 
+		Das Magnetfeld in Spulen wird durch die Stromstärke erzeugt. 
+		Ändert sich die Stromstärke, ist die Spule einem sich änderenden 
+		Magnetfeld ausgesetzt (ihrem eigenen) und es ergibt sich eine 
+		Induktionspannung. Dies nennt sich Selbstinduktion.
+		Die Eigentschaft einer Spule, wie stark dieser Effekt ausfällt nennt sich auch 
+		Selbstinduktivität. 
+		
+		L in H (Herny)
+		L = μ0 μr n² A/l
+
+		Lenzsche Regel: Eine Inuktionspannung wirkt ihrer Ursache entgegen.
+		Daher das - bei:  
+
+		U = -(Bds)' = -(BA)' = -Φ'
+
+
+	12.) Ausschaltvorgang einer Spule:
+		Wird eine Spule mit Selbstinduktivität L über einem Widerstand R abgeschaltet, gilt für die 
+		Stromstärke I zur Zeit t: 
+
+		I(t) = I e ^ -t (R/L)
+		T = L/R ln(2)
+
+	13.) Einschaltvorgang einer Spule: 
+		I(t) = I (1 - e ^ (-t R/L))
+
+	14.) Energie in Spulen: 
+		Gesammt Energie: 
+		W = 0.5 CU²
+
+		Energiedichten...: 
+
+	11.) Die Hall-Sonde: 
+		Ein breites Leiterplättchen werde ins B-Feld gehalten und mit elektrischem Strom 
+		durchflossen. Die Lorentzkraft drückt damit die Elektronen auf die eine 
+		Seite des Plättchens. Diese gehäufte Ladung stößt sich aber mit einem 
+		E-Feld ab. Die Elektronen können nur so lange gedürckt werden, bis sich die Kräfte ausgleichen. 
+		Den Vorgang nennt man auch Hall-Effekt. 
+
+		[DIAGRAMM]
+
+	12.) Induktionsspannung: 
+		Wird ein Leiter der Länge d mit der Geschwindigkeit v quer zu einem Magnetfled der 
+		Flussdichte B bewegt, wird in ihm die Spannung 
+
+		U = Bdv 
+
+		induziert. 
+
+		Bei einer Leiterschleife, welche durch ein Magnetfeld durchströmt wird gilt: 
+
+		U = -(Bds)' = -(BA)' = -Φ'
+ 
+
+	13.) Wechselspannung: 
+		Wechselspannung ist eine Spannung, die periodisch ihre Polarität wechselt.
+
+		Wechselspannung ist in der Regel Sinusförmig, d.h. in der Form. 
+		U(t) = U sin(ωt)
+
+		Meist wird statt der maximalen Spnnung die Effektivspannung angegeben, der 
+		durschnittliche Betrag der Spnnung. Die Wurzel aus dem Durchschnitt des 
+		Quadrates. 
+
+		U = √2 U
+
+	
+	14.) Blindwiderstände: 
+		Betreibt man eine widerstandsfreie Spule mit Induktivität L 
+		an einer Wechselspannung mit Wineklgeschwindigkeit ω, wirkt die Spule wie ein 
+		Wiederstand mit dem Wert Z=ωL
+
+		Da keine Energie verloren geht, ist dies ein Blindwiderstand. 
+
+		Bereibt man einen Kondensator mit Kapazität C, dann hat diser den Blindwiderstand: 
+
+		Z=1/ωC
+		
+		Eine Reihenschaltung eines Kondenstators mit Kapazität C und Spule mit der 
+		Selbstinduktivität L hat beim Wechselstrom der Winkelgeschwindigkeit. 
+		ω=1/√LC
+
+	
+	15.) Der LC Schwingkreis:
+		...
+
+
+
+###################################################################################################
+	I.) DIE QUANTENPHYSIK.
+###################################################################################################
+
+	1.) Der Hallwachs-Effekt / Der photoelektrische Effekt:
+		Licht fällt auf die Photokathode. 
+		Aus dem Metall herausgeschlagene Elektronen erreichen die Auffangannode bis 
+		diese so sehr aufgeladen ist, dass sie die Elektronen zu stark abstößt, als dass 
+		sie noch zu ihr vordringen können. 
+		Das Voltmeter misst also die maximale Spannung, die die Elektronen durch Aufladung 
+		der Anode erreichen können. 
+
+		Die maximale Spannung hängt nicht von der Intensität, aber von der Frequenz des 
+		Lichtes ab. 
+		Je höher die Frenquenz des Lichtes ist, desto größer ist die Elektronenenergie. 
+		Unterhalt einer gewissen Frenquenz werden keine Elektronen ausgelöst. 
+
+		Licht ist gequantelt, es besteht aus einzelnen Teilchen Photonen. 
+		Ein Photon kann ein Elektron treffen und es maximal mit seiner vollständigen Energie 
+		beschleunigen. Reicht diese Energie, um die Austrittsarbeit des Materials zu 
+		überwinden, wird das Elektron gelöst und fliegt mit der übrigen Energie weiter. 
+
+		Energie eines Photons: 
+			W(f)=hf 
+
+		Energie das Elektrons 
+			W(f)=hf - Wab
+
+	2.) Die Röntgenröhre: 
+		Anstatt mit Photonen Elektronen aus einem Material auszulösen, können 
+		umgekehrt Elektronen Energie in Form von Photonen abstrahlen, die 
+		sog. Bremsttrahlung. 
+
+		[DIAGRAMM]
+
+	2.) Photonen: 
+		Wie oben schon beschrieben haben Photonen die Energie 
+
+		W(f) = hf 
+
+		Aber sie haben auch einen Impuls 
+		p = h / λ
+		Sie besitzten aber keine Ruhemasse, nur während sie sich bewegen kann man 
+		einen Impuls feststellen. 
+
+		Auch ein einzelnes Phton landet an machen Orten mit höhrer Wahrscheinlichkeit als 
+		and anderen. Die Warhscheinlichkeitsverteilung also wo eine Photon besonders 
+		wahrscheinlich landet, bei vielfacher Wiederholung also besonders viele landen, 
+		entspricht exact der Helligkeitsverteilung beim normalen Doppelspalversuch mit vielen 
+		Photonen.
+
+		Man kann den Aufenthalsoft eines Photons nicht eindeutig vorhersagen, sondern nur,
+		wo es mit welcher Wahrscheinlichkeit ist, also eher einen Aufentaltsbereich, statt festen Ort.
+
+		Dies geschieht mit der Ψ-Funktion, sie ist als Funktion vergleichbar mit der Amplitude der 
+		Elektromagnetischen Feldstärke im normalen Wellenbild Entsprechend ergeben sich 
+		Überlagerung und Interfernz. 
+
+		Die Wahrscheinlichkeit, das Teilchen an einem Ort anzutreffen, entspricht |Ψ|².
+
+		Ein Photon kann an mehreren Orten gleichzeitig sein und ist gemäß |Ψ|² im Raum verteilt. 
+
+		Diese Anteile können sogart miteinander interferieren, das Phton verhält sich wie eine Welle. 
+
+		Der Ort des Photons wird erst eindeutig, sobald man ihn miss, durch Aufftreffen auf einen Schirm, 
+		ab dann hat es auch keine Welleneigenschaften mehr. 
+
+
+	4.) Die Comptonstreung: 
+		Trifft ein Photon ein freies Elektron, gibt es ihm dabei Energie und Impuls ab.
+		Als Folge ändert das Photon sowohl Richtung als auch Wellenlänge. 
+
+		Im Detail ... 
+
+	5.) Interferometer: 
+		... diagramm 
+
+		Knallerversuch... 
+	
+
+	6.) Heisenbergesche Unschärferelation: 
+		Man kann Ort und Impuls eines Quants nicht beliebig genau 
+		bestimmen. Es gilt: 
+
+		Δp Δx ≈ h
+
+	7.) Wärmestrahlung: 
+		Jeder Körper über 0K strahlt Wärmestrahlung ab. 
+
+		Das Strahlungsspektrum eines schwarzen Strahlers, eine idealer Strahler, 
+		der in allen Frenqzenzen gleich gut abstrahlen kann, ist kontinuierlich, hat also 
+		nicht nur einzelne Wellenlänge. 
+
+		Die Frequenz mit der größten Abstrahlung steigt mit der Temperatur. 
+		Es gilt sogar. 
+
+		Wiensches Verschiebungsgesetz: 
+		... 
+
+		Stefan-Boltzmann-Gesetz:
+		Die Strahlungsleistung P eines schwarzen Strahlers ist je größer, 
+		je höher die Tempertur ist. 
+
+		P~T4
+		
+		Absorption und Emission:
+		nicht ideale Strahlungskörper, also nicht schwarze Strahler, strahlen nur einen 
+		Teil der Energie ab, die sie von der Temperatur her abstrahlen können. 
+
+		Der Prozentsatz entspricht exakt dem Prozentsatz der Strahlung, die sie absorbieren, statt 
+		ihn zu reflektieren. 
+
+		Reflektierende Oberflächen strahlen auch schlechter. 
+		Mattschwarze strahlen besser. 
+
+	8.) Frank-Herz Versuch: 
+		Die Energieniveaus der Elektronen um Atome sind Quantisiert, es gibt nur ganz bestimmte mögliche 
+		Bindungsenergien. 
+		Hat ein anfliegendes Elektron die benötigte Energie um das äußerste Hüllenelektron in ein höheres 
+		Energieniveau anzuheben, kann es die Energie abgeben, wird gebremst und fliegt mit der Restenergie weiter. 
+		Hatte es genau diese Energie bleibt keine Energie übrig. 
+
+		Das angregte Qucksilberatom gibt die gespeicherte Energie nach kurzer Zeit wieder als Licht ab. Energie des 
+		Lichtquants: 4.9eV.
+	
+	9.) Fraunhofersche-Emissionsspektren: 
+		[DIAGRAMM]
+
+	10.) Die spezielle Relativitätstheorie: 
+		Es gibt keine Bezugssysteme, genauso wenig gibt es Stillstand. 
+		In jedem Bezugssystem ist die Lichtgeschwindigkeit gleich. 
+
+		Bewegen sich zwei Beobachter mit stark unterschiedlichen Geschwindigkeiten, verläuft Zeit 
+		für beide nicht immer gleich schnell. 
+		Dies wird auch Zeitdilatation genannt. 
+		Von einem ruhenden Beobachter aus scheint die Zeit des bewegten zu verlangsamen. 
+
+		Bewegt sich jemand mit hoher Geschwindigkeit wird der Raum in Flugrichtung gestaucht. 
+		Längenkontraktion. 
+
+		Aus der Sicht des ruhenden Beobachters wir die Zeit für den schnellen Körper um den 
+		Faktor k verlangsamt. 
+		Aus der Sicht des bewegten Körpers wird der Raum um den Faktor k gestaucht. 
+
+		Jedes Bezugssystem ist gleichberechtigt .
+		In jedem Bezugssystem gelten die gleichen physikalsichen Gesetzte und licht hat immer die 
+		Ausbreitungsgeschwindigkeit c. 
+
+		Umrechnung von einem System in eine relativ dazu bewegtes führt zu notwendigen Rechenkorrekturen. 
+
+		Auch die Masse wird mit dem Faktor k größer. 
+		Einem Körper kineitsche Energie zuzführen, erhöht also seine Masse. 
+		Das Bedeutet, dass Energie selbst Masse hat. 
+
+		W=mc²
+
+		Masse und Energie sind ineinander umrechenbar. 
+		Auch ein ruhender Körper hat Energie in Form seiner Ruhemasse. 
+		Photonen habe keine Ruhemasse, aber Masse daher Energie. 
+
+		Umrechnung Ekin 
+
+
+	11.) Generell Relativitätstehrie: 
+		Nicht nur Geschwindigkeit, sondern auch Gravitation und Beschleunigung haben Auswirkungen 
+		auf Raum und Zeit. 
+		Die Lichtgeschwindigkeit ist immer konstant und Licht bewegt sich geradelinig. 
+		Das Licht manchmal doch eine kurve macht, liegt dann daran, dass der Raum hier gekrümmt wird. 
+
+	12.) Materiewellen: 
+		Die Impuls-Wellenlänge-Formel gilt auch für Materie. 
+
+		p=h/λ
+
+		Bei Materiewellen gibt es im Vergleich zu EM-Wellen keine zweite Interpretaiton als Feldstärke. 
+		Hier benutzt man die Ψ-Funktion. 
+		Damit gilt auch hier: Teilchen haben keinen exacten Ort, sie sind im Raum verteilt. Auch für 
+		sie gilt die Heisenbergsche Unschärferelation.
+
+		Materie hat wie Photonen Quanteneigenschaften. Inklusive Interferenz, Orts/Impulsunschärfe und 
+		eine mögliche Darstellung als Wellenfunktion. 
+
+		Da die Wellenlänge allerdings proportional zu 1/p ist, ist sie bei allen makroskopischen Körpern 
+		zu vernachlässigen. 
+
+	13.) Vakuumpolarisation: 
+		Sogar in absoluaten Vakuum kann es wegen der Energieunschäre eine kurz Flukutation geben. 
+		Die Energie Materialisiert sich als Materie in From eine Elektron-Positron Paares. 
+		Das entsteht, und vernichtet sich gleich wieder. 
+	
+	14.) Der unendlich hohe, lineare Potentialtopf. 
+
 
 
 

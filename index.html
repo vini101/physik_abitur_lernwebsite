@@ -1,389 +1,311 @@
 <!DOCTYPE html>
-<html lang=de>
 
-<head>
-	<style>
-		.section {
-			padding-top: 1rem;
-			padding-bottom: 1rem;
-			margin-top: 2rem;
-			margin-bottom: 2rem;
-			background: #444; 
-			color: white;
-			text-align: left;
-			border-radius: 2rem;
-		}
+<html>
+	<head>
+		<link rel="stylesheet" type="" href="styles.css">
+	</head>
 
-		a:link {
-			color: pink;
-			background-color: transparent;
-			text-decoration: none;
-		}
-		a:visited {
-			color: pink;
-			background-color: transparent;
-			text-decoration: none;
-		}
-		a:hover {
-			color: red;
-			background-color: transparent;
-			text-decoration: underline;
-		}
-		a:active {
-			color: yellow;
-			background-color: transparent;
-			text-decoration: underline;
-		}
-
-		.sub-links {
-			font-size: 1.5rem;
-			margin-left: 2rem;
-		}
-		
-		.main-links {
-			margin-top: 3rem;
-			margin-bottom: 3rem;
-			margin-left: 2rem;
-			font-size: 3.5rem;
-		}
-
-		.themen-links {
-			font-size: 2.5rem;
-			margin-left: 2rem;
-		}
-
-		h1 {
-			font-size: 4.5rem;
-		}
-
-		h2 {
-			font-size: 3rem;
-		}
-		h3 {
-			font-size: 2rem;
-		}
-		
-		body {
-			background: #333;
-			color: white;
-			margin-left: 4rem;
-			margin-right: 4rem;
-		}
-
-		.menue {
-			margin-bottom: 3rem;
-		}
-
-		.content {
-			margin-top: 2rem;
-			margin-left: 2rem;
-			margin-right: 2rem;
-		}
-
-		.sub-section {
-			margin-left: 1rem;
-			margin-right: 1rem;
-			font-size: 2rem;
-			margin-bottom: 2rem;
-			margin-top: 2rem;
-			border-top: solid 0.125rem;
-		}
-
-		.formel-block {
-			background: #333;
-			margin-left: 0.25rem;
-			margin-right: 2rem;
-			padding-left: 1rem;
-			padding-right: 1rem;
-			padding-top: 1rem;
-			padding-bottom: 1rem;
-			border-radius: 1rem;
-		}
-	</style>
-</head>
-
-<body>
-
-	<div>
-		<div class='menue'>
-			<hr style='border-top: 0.125rem solid #bbb'>
-			<h1 align='center'>Physik Abitur Lernwebsite</h1>
-			<hr style='border-top: 0.125rem solid #bbb'>
+	<body>
+		<!-- This is the section for the Title-->
+		<div class='title-container'>
+			<div class=''>
+				<hr style='border-top: 0.125rem solid #bbb'>
+				<h1 align='center'>Physik Abitur Lernwebsite</h1>
+				<hr style='border-top: 0.125rem solid #bbb'>
+			</div>
 		</div>
 
-		<hr style='border-top: 0.125rem solid #bbb'>
 
-		<div class='main-links'>
+		<!-- This is the section for all of the Links-->
+		<div class='link-container'> 
+
+			<hr style='border-top: 0.125rem solid #bbb'>
+
 			<a href="#Mechanik">I.) Mechanik</a><br>
-				<div class='themen-links'>
-					<a href="#Mechanik1">I.I.) Schwingungen</a><br>
-						<div class='sub-links'>
-						<a href="#Mechanik1">I.i)   Die Schwingung</a><br>
-						<a href="#Mechanik2">I.ii)  Die harmonische Schwingung</a><br>
-						<a href="#Mechanik3">I.iii) Das Fadenpendel</a><br>
-						<a href="#Mechanik4">I.iv) Das Federpendel</a><br>
-						<a href="#Mechanik5">I.v)  Erzwungen Schwingungen</a><br>
-						<a href="#Mechanik6">I.vi) Gedämpfte Schwingungen</a><br>
-					</div>
-					<a href="#Mechanik8">I.II.) Wellen</a><br>
-						<div class='sub-links'>
-						<a href="#Mechanik8">II.i) Die mechanische Welle</a><br>
-						<a href="#Mechanik9">II.ii) Diagramme</a><br>
-						<a href="#Mechanik10">II.iii) Wellenausbreitung</a><br>
-						<a href="#Mechanik11">II.iv) Wellengleichung</a><br>
-						<a href="#Mechanik12">II.v) Wellenüberlagerung</a><br>
-						<a href="#Mechanik13">II.vi) Stehende Welle</a><br>
-						<a href="#Mechanik14">II.vii) Schwebung</a><br>
-					</div>
+
+			<hr style='border-top: 0.0625rem dotted #bbb'>
+
+			<div class='themen-links'>
+
+				<a href="#Mechanik1">I.I.) Schwingungen</a><br>
+
+				<div class='sub-links'>
+					<a href="#Mechanik1">I.i)   Die Schwingung</a><br>
+					<a href="#Mechanik2">I.ii)  Die harmonische Schwingung</a><br>
+					<a href="#Mechanik3">I.iii) Das Fadenpendel</a><br>
+					<a href="#Mechanik4">I.iv) Das Federpendel</a><br>
+					<a href="#Mechanik5">I.v)  Erzwungen Schwingungen</a><br>
+					<a href="#Mechanik6">I.vi) Gedämpfte Schwingungen</a><br>
 				</div>
-			<a href="#Wellenoptik">I.) Wellenoptik</a> <br>
-			<a href="#Elektrodynamik">I.) Elektrodynamik</a> <br>
-			<a href="#Quantenphysik">I.) Quantenphysik</a> <br>
-		</div>
 
-		<hr style='border-top: 0.125rem solid #bbb'>
-	</div>
+				<a href="#Mechanik8">I.II.) Wellen</a><br>
 
+				<hr style='border-top: 0.0625rem dotted #bbb'>
 
-	<div class='section' id='Mechanik'>
-		<div class='content'>
-			<h2>I.) Mechanik</h2>
-			<div id='Mechanik1' class='sub-section'>
-				<h3>I.i) Die Schwingung </h3>
-				<p>Eine Schwingung ist eine sich wiederholende 
-				Bewegung eines Systemes, welches sich nach der 
-				Periodendauer <b>T</b> wieder in den Grundzustand 
-				zurükkehrt.  
-				</p>
-				<p>Die Frequenz <b>f</b> ist die Schwingungsanzahl pro Sekunde, sie wird in 
-				Herz angegeben.  
-				</p>
-				<p>Die Amplitude <b>A</b> ist der maximale Abstand der schwingenden Körpers zum
-				Ruhezustand
-				</p>
-				<p>Die Winkelgeschwindigkeit gibt an, wie viele Winkelgrade bei der 
-				Kreisbewegung pro Sekunde zurückgelegt werden.
-				</p>
+				<div class='sub-links'>
+					<a href="#Mechanik8">II.i) Die mechanische Welle</a><br>
+					<a href="#Mechanik9">II.ii) Diagramme</a><br>
+					<a href="#Mechanik10">II.iii) Wellenausbreitung</a><br>
+					<a href="#Mechanik11">II.iv) Wellengleichung</a><br>
+					<a href="#Mechanik12">II.v) Wellenüberlagerung</a><br>
+					<a href="#Mechanik13">II.vi) Stehende Welle</a><br>
+					<a href="#Mechanik14">II.vii) Schwebung</a><br>
+				</div>
+				</div>
 
-				<p>
-					<b>f = 1 / T</b><br>
-					<b>T = 1 / f</b><br>
-					<b>ω = 2 π f</b><br>
-				</p>
-			</div>	
-			
-			<div id='Mechanik2' class='sub-section'>
-				<h3>I.ii) Die harmonische Schwingung</h3>
-				<p></p>
+				<hr style='border-top: 0.125rem solid #bbb'>
+
+				<a href="#Wellenoptik">I.) Wellenoptik</a> <br>
+
+				<hr style='border-top: 0.125rem solid #bbb'>
+
+				<a href="#Elektrodynamik">I.) Elektrodynamik</a> <br>
+				<hr style='border-top: 0.125rem solid #bbb'>
+				<a href="#Quantenphysik">I.) Quantenphysik</a> <br>
+				<hr style='border-top: 0.125rem solid #bbb'>
 			</div>
 
-			<div id='Mechanik3' class='sub-section'>
-				<h3>I.iii) Das Fadenpendel</h3>
-				<u><p>Differenzialgleichung:</p></u>
-				<p class='formel-block'>
-				F = m s''(t)			# Newtonische Kraft <br>
-				F = -m g sin(α(t))		# Kraft, die auf die Masse des Fadenpendels nach Winkel wirkt.<br>
-				<br>
-				α(t): gibt den Winkel zum Zeitpunkt t an <br><br>
 
-				=> F = F<br>
-				=> m s''(t) = -m g sin(α(t))<br>
-				=> s''(t) = -g sin(α(t))<br>
-				<br>
-				Die Kreisbahn des Fadenpendels hat den Umfang U = 2 π l <br>
+		<div class='section' id='Mechanik'>
+			<div class='content'>
+				<h2>I.) Mechanik</h2>
+				<div id='Mechanik1' class='sub-section'>
+					<h3>I.i) Die Schwingung </h3>
+					<p>Eine Schwingung ist eine sich wiederholende 
+					Bewegung eines Systemes, welches sich nach der 
+					Periodendauer <b>T</b> wieder in den Grundzustand 
+					zurükkehrt.  
+					</p>
+					<p>Die Frequenz <b>f</b> ist die Schwingungsanzahl pro Sekunde, sie wird in 
+					Herz angegeben.  
+					</p>
+					<p>Die Amplitude <b>A</b> ist der maximale Abstand der schwingenden Körpers zum
+					Ruhezustand
+					</p>
+					<p>Die Winkelgeschwindigkeit gibt an, wie viele Winkelgrade bei der 
+					Kreisbewegung pro Sekunde zurückgelegt werden.
+					</p>
 
-				=> s(t) = (α(t) / 360°) * U<br>
-				=> s(t) = a(t) * l<br>
-				=> α(t) = s(t) / l<br>
-				<br>
-				s''(t) = -g sin(s(t) / l)<br>
-				<br>
-				Die Kleinwinkelnährung:<br>
-				s''(t) = -g sin(s(t) / l) ≈ - (g/l) s(t)<br>
-				=> s''(t) = -(g/l) s(t)<br>
-				<br>
-				Ansatz:<br>
-				=> s(t) = A sin(√(g/l) + ϕ)<br>
-				</p>
-				<p class='formel-block'>
-					Die Formel für das Fadenpendel sieht also wie folgt aus:<br>
-					s(t) = A sin(√(g/l) + ϕ)
-				</p>
-			</div>
-
-			<div id='Mechanik4' class='sub-section'>
-				<h3>I.iv) Das Federpendel</h3>	
-				<u><p>Differenzialgleichung</p></u>
-				<p class='formel-block'>
-					F = -D s(t)			# Hooksches Gesetz<br> 
-					F = m s''(t)		# Newtonische Kraft<br>
-					<br>
-					=> F = F <br>
-					=> -D s(t) = m s''(t)<br>
-					=> s(t) = -(D/m) s''(t)<br>
-					<br>
-					Ansatz 1:<br>
-					=> s''(t) = A cos(ωt)<br>
-					=> s(t) = -Aω² cos(ωt)<br>
-					<br>
-					Ansatz 2:<br>
-					=> s(t) = -(D/m) * s''(t)<br>
-					=> s(t) = -(D/m) * cos(ωt)<br>
-					<br>
-					Ansatz 1 & 2:<br>
-					=> s(t) = s(t)<br>
-					=> -(D/m) * cos(ωt) = -Aω² cos(ωt)<br>
-					=> ω = √(D/m)<br> 
-					<br>
-					=> s(t) = A * cos(√(D/m) * t)<br>
-				</p>
-				<p class='formel-block'>
-					Die Formel für das Federpendel sieht also wie folgt aus:<br>
-					s(t) = A * cos(√(D/m) * t)>
-				</p>
-			</div>
-
-			<div id='Mechanik5' class='sub-section'>
-				<h3>I.v) Erzwungene Schwingungen</h3>	
-				<p>
-					Führt man einem zur Schwingung fähigen System, in der Frequenz 
-					Energie zur in der 
-					es von sich aus Schwingen würde, wird es zum Schwingen angeregt. <br>
-					Die Frequenz bei des es zum schwingen anfängt nennt sich Resonanz 
-					Frequenz.<br>
-					<br>
-					Liegt keine oder nur geringe Reibung vor wird die <br>
-					Energie des Systems immer größer man nennt die Resonanzkatastrophe.<br>
-					<br>
-					Erzwingt man eine Schwinung eines Systems mit einer Frenquenz f, 
-					so gibt es 3 Grenzfälle<br>
-					<br>
-					f &lt&lt f0 ,		Erreger und Schwinger schwingen in gleicher Phase 
-					amplitudengleich <br>
-					f ≈ f0 ,		Erreger eilt dem Schwinger etwa (π/2) Phase 
-					voraus, die Amplitude wird immer größer <br>
-					f >> f0,		Erreger und Schwinger schwingen 
-					gegensätzlich, die Amplitude ist sehr klein<br>
-				</p>
-			</div>
-
-			<div id='Mechanik6' class='sub-section'>
-				<h3>I.vi) Gedämpfte Schwingungen</h3>	
-				<p>	
-					Schwingfall: <br>
-					Schwinung ist in der From sin(ωt) k^t, wobei k eine positive 
-					Konstante k &lt 1 ist, heißt die Schwinung wird. <br>
-					<br>
-					Aperiodischer Grenzfall: <br>
-					Dämpfung ist groß genug, dass gerade keine Schwinung mehr 
-					stattfindet, sondern der Schwinger sich von maximaler Auslenkung 
-					nur richtung Mittellage bewegt und da bleibt. <br>
-					<br>
-					Kriechfall: <br>
-					Dämpfung ist noch größer, Schwinger braucht noch länger 
-					um zur Mittellage zu kommen. <br>
-				</p>	
-			</div>
-
-			<div id='Mechanik8' class='sub-section'>
-				<h3>II.i) Die mechanische Welle</h3>
-				<p>
-					Eine mechanische Welle ist eien sich entlang eines Mediums (
-					in 1D, 2D oder 3D) ausbreitende Störung, oft eine Schwingung. 
-					Sie breitet sich mit der Geschwindigkeit <b>c</b> aus. <br>
-					Verläuft die Schwingung senkrecht zur Ausbreitungsrichtung, ist die 
-					Welle transversal sonst longitudinal. <br>
-				</p>
-			</div>
-
-			<div id='Mechanik9' class='sub-section'>
-				<h3>II.ii) Verschiedene Diagramme</h3>
-			</div>
-
-			<div id='Mechanik10' class='sub-section'>
-				<h3>II.iii) Wellenausbreitung</h3>
-				<p>
-					Eine Welle wird durch eine harmonische Schwingung mit der Periodendauer
-					T erregt. Ihre Ausbreitungsgeschwindigkeit ist c.
-					Jeder Punkt auf der Welle macht die selbe Schwigung nur mit 
-					Zeitverzögerung.
-					<br>
-					<br>
-					<b>λ = Tc = (c/f)</b>
-				</p>
-			</div>
-
-			<div id='Mechanik11' class='sub-section'>
-				<h3>II.iv) Die Wellengleichung</h3>
-				<p>
-					Die Wellengleichung gibt den Zustand eines Punktes in Abhängigkeit des Zeitpunkts 
-					und des Ortes an. <br>
-					=> s(x, t) = A sin(ω(t - x/c))<br>
-					<br>
-					Umgeformt: <br>
-					=> s(x, t) = A sin(2π (t/T - x/λ) + ϕ)<br>
-				</p>	
-			</div>
-
-			<div id='Mechanik12' class='sub-section'>
-				<h3>II.v) Wellenüberlagerung</h3>
-				<p>
-					Wellen durchlaufen sich im Allgemeinen ungestört, nach dem 
-					Überlagerunsgbereich ist der Wellenverlauf unverändert.
-					<br><br>
-					Im Überlagerunsgbereich werden für jeden Punkt im Wellenträger 
-					die Auslenkungen der einzelnen Wellen addiert. <b>Superpositionsprinzip</b>
-					<br><br>
-					Im Zeigermodell ist der Zeiger der Überlagerung die Summe der Zeiger 
-					der beiden Wellen
-				</p>		
-			</div>
-
-			<div id='Mechanik13' class='sub-section'>
-				<h3>II.vi) Stehende Welle</h3>
-				<p>
-					Sie tritt bei der Überlagerung zweier Wellen mit gleicher Wellenlänge 
-					aus unterschiedlichen Richtungen auf.
-					<br><br>
-					Es gibt ortsfeste Punkt, an denen der Wellenträger stark schwingt und Orte an denen der 
-					Wellenträger überhaupt nicht mehr schwingt. <b>Konstruktive und Destruktive Interverenz</b>
-					<br>
-					Zwei Bewegungsbäuch haben den gleichen Abstand wie von einer ursächlichen Well, eine 
-					halbe Wellenlänge
-				</p>	
-			</div>
-
-			<div id='Mechanik14' class='sub-section'>
-				<h3>II.v) Schwebung</h3>
-				<p>
-					Überlagern sich zwei Wellen mit minimalen Frequenzunterschied, sind die Phasenunterschiede 
-					nicht mehr an jedem Ort konstant, sondern verschieben sich kontinuierlich.
-					<br><br>
-					Der Orstfeste Beobachter hört als Überlagerung einen Ton mit mittlerer Frequenz der 
-					beiden Sender, der mit dem halben Frequenzunterschied lauter und leiser wird.
-				</p>
+					<p>
+						<b>f = 1 / T</b><br>
+						<b>T = 1 / f</b><br>
+						<b>ω = 2 π f</b><br>
+					</p>
+				</div>	
 				
+				<div id='Mechanik2' class='sub-section'>
+					<h3>I.ii) Die harmonische Schwingung</h3>
+					<p></p>
+				</div>
+
+				<div id='Mechanik3' class='sub-section'>
+					<h3>I.iii) Das Fadenpendel</h3>
+					<u><p>Differenzialgleichung:</p></u>
+					<p class='formel-block'>
+					F = m s''(t)			# Newtonische Kraft <br>
+					F = -m g sin(α(t))		# Kraft, die auf die Masse des Fadenpendels nach Winkel wirkt.<br>
+					<br>
+					α(t): gibt den Winkel zum Zeitpunkt t an <br><br>
+
+					=> F = F<br>
+					=> m s''(t) = -m g sin(α(t))<br>
+					=> s''(t) = -g sin(α(t))<br>
+					<br>
+					Die Kreisbahn des Fadenpendels hat den Umfang U = 2 π l <br>
+
+					=> s(t) = (α(t) / 360°) * U<br>
+					=> s(t) = a(t) * l<br>
+					=> α(t) = s(t) / l<br>
+					<br>
+					s''(t) = -g sin(s(t) / l)<br>
+					<br>
+					Die Kleinwinkelnährung:<br>
+					s''(t) = -g sin(s(t) / l) ≈ - (g/l) s(t)<br>
+					=> s''(t) = -(g/l) s(t)<br>
+					<br>
+					Ansatz:<br>
+					=> s(t) = A sin(√(g/l) + ϕ)<br>
+					</p>
+					<p class='formel-block'>
+						Die Formel für das Fadenpendel sieht also wie folgt aus:<br>
+						s(t) = A sin(√(g/l) + ϕ)
+					</p>
+				</div>
+
+				<div id='Mechanik4' class='sub-section'>
+					<h3>I.iv) Das Federpendel</h3>	
+					<u><p>Differenzialgleichung</p></u>
+					<p class='formel-block'>
+						F = -D s(t)			# Hooksches Gesetz<br> 
+						F = m s''(t)		# Newtonische Kraft<br>
+						<br>
+						=> F = F <br>
+						=> -D s(t) = m s''(t)<br>
+						=> s(t) = -(D/m) s''(t)<br>
+						<br>
+						Ansatz 1:<br>
+						=> s''(t) = A cos(ωt)<br>
+						=> s(t) = -Aω² cos(ωt)<br>
+						<br>
+						Ansatz 2:<br>
+						=> s(t) = -(D/m) * s''(t)<br>
+						=> s(t) = -(D/m) * cos(ωt)<br>
+						<br>
+						Ansatz 1 & 2:<br>
+						=> s(t) = s(t)<br>
+						=> -(D/m) * cos(ωt) = -Aω² cos(ωt)<br>
+						=> ω = √(D/m)<br> 
+						<br>
+						=> s(t) = A * cos(√(D/m) * t)<br>
+					</p>
+					<p class='formel-block'>
+						Die Formel für das Federpendel sieht also wie folgt aus:<br>
+						s(t) = A * cos(√(D/m) * t)>
+					</p>
+				</div>
+
+				<div id='Mechanik5' class='sub-section'>
+					<h3>I.v) Erzwungene Schwingungen</h3>	
+					<p>
+						Führt man einem zur Schwingung fähigen System, in der Frequenz 
+						Energie zur in der 
+						es von sich aus Schwingen würde, wird es zum Schwingen angeregt. <br>
+						Die Frequenz bei des es zum schwingen anfängt nennt sich Resonanz 
+						Frequenz.<br>
+						<br>
+						Liegt keine oder nur geringe Reibung vor wird die <br>
+						Energie des Systems immer größer man nennt die Resonanzkatastrophe.<br>
+						<br>
+						Erzwingt man eine Schwinung eines Systems mit einer Frenquenz f, 
+						so gibt es 3 Grenzfälle<br>
+						<br>
+						f &lt&lt f0 ,		Erreger und Schwinger schwingen in gleicher Phase 
+						amplitudengleich <br>
+						f ≈ f0 ,		Erreger eilt dem Schwinger etwa (π/2) Phase 
+						voraus, die Amplitude wird immer größer <br>
+						f >> f0,		Erreger und Schwinger schwingen 
+						gegensätzlich, die Amplitude ist sehr klein<br>
+					</p>
+				</div>
+
+				<div id='Mechanik6' class='sub-section'>
+					<h3>I.vi) Gedämpfte Schwingungen</h3>	
+					<p>	
+						Schwingfall: <br>
+						Schwinung ist in der From sin(ωt) k^t, wobei k eine positive 
+						Konstante k &lt 1 ist, heißt die Schwinung wird. <br>
+						<br>
+						Aperiodischer Grenzfall: <br>
+						Dämpfung ist groß genug, dass gerade keine Schwinung mehr 
+						stattfindet, sondern der Schwinger sich von maximaler Auslenkung 
+						nur richtung Mittellage bewegt und da bleibt. <br>
+						<br>
+						Kriechfall: <br>
+						Dämpfung ist noch größer, Schwinger braucht noch länger 
+						um zur Mittellage zu kommen. <br>
+					</p>	
+				</div>
+
+				<div id='Mechanik8' class='sub-section'>
+					<h3>II.i) Die mechanische Welle</h3>
+					<p>
+						Eine mechanische Welle ist eien sich entlang eines Mediums (
+						in 1D, 2D oder 3D) ausbreitende Störung, oft eine Schwingung. 
+						Sie breitet sich mit der Geschwindigkeit <b>c</b> aus. <br>
+						Verläuft die Schwingung senkrecht zur Ausbreitungsrichtung, ist die 
+						Welle transversal sonst longitudinal. <br>
+					</p>
+				</div>
+
+				<div id='Mechanik9' class='sub-section'>
+					<h3>II.ii) Verschiedene Diagramme</h3>
+				</div>
+
+				<div id='Mechanik10' class='sub-section'>
+					<h3>II.iii) Wellenausbreitung</h3>
+					<p>
+						Eine Welle wird durch eine harmonische Schwingung mit der Periodendauer
+						T erregt. Ihre Ausbreitungsgeschwindigkeit ist c.
+						Jeder Punkt auf der Welle macht die selbe Schwigung nur mit 
+						Zeitverzögerung.
+						<br>
+						<br>
+						<b>λ = Tc = (c/f)</b>
+					</p>
+				</div>
+
+				<div id='Mechanik11' class='sub-section'>
+					<h3>II.iv) Die Wellengleichung</h3>
+					<p>
+						Die Wellengleichung gibt den Zustand eines Punktes in Abhängigkeit des Zeitpunkts 
+						und des Ortes an. <br>
+						=> s(x, t) = A sin(ω(t - x/c))<br>
+						<br>
+						Umgeformt: <br>
+						=> s(x, t) = A sin(2π (t/T - x/λ) + ϕ)<br>
+					</p>	
+				</div>
+
+				<div id='Mechanik12' class='sub-section'>
+					<h3>II.v) Wellenüberlagerung</h3>
+					<p>
+						Wellen durchlaufen sich im Allgemeinen ungestört, nach dem 
+						Überlagerunsgbereich ist der Wellenverlauf unverändert.
+						<br><br>
+						Im Überlagerunsgbereich werden für jeden Punkt im Wellenträger 
+						die Auslenkungen der einzelnen Wellen addiert. <b>Superpositionsprinzip</b>
+						<br><br>
+						Im Zeigermodell ist der Zeiger der Überlagerung die Summe der Zeiger 
+						der beiden Wellen
+					</p>		
+				</div>
+
+				<div id='Mechanik13' class='sub-section'>
+					<h3>II.vi) Stehende Welle</h3>
+					<p>
+						Sie tritt bei der Überlagerung zweier Wellen mit gleicher Wellenlänge 
+						aus unterschiedlichen Richtungen auf.
+						<br><br>
+						Es gibt ortsfeste Punkt, an denen der Wellenträger stark schwingt und Orte an denen der 
+						Wellenträger überhaupt nicht mehr schwingt. <b>Konstruktive und Destruktive Interverenz</b>
+						<br>
+						Zwei Bewegungsbäuch haben den gleichen Abstand wie von einer ursächlichen Well, eine 
+						halbe Wellenlänge
+					</p>	
+				</div>
+
+				<div id='Mechanik14' class='sub-section'>
+					<h3>II.v) Schwebung</h3>
+					<p>
+						Überlagern sich zwei Wellen mit minimalen Frequenzunterschied, sind die Phasenunterschiede 
+						nicht mehr an jedem Ort konstant, sondern verschieben sich kontinuierlich.
+						<br><br>
+						Der Orstfeste Beobachter hört als Überlagerung einen Ton mit mittlerer Frequenz der 
+						beiden Sender, der mit dem halben Frequenzunterschied lauter und leiser wird.
+					</p>
+					
+				</div>
+		</div>
+
+
+		<div class='section' id='Wellenoptik'>
+			<div class='content'>
+				<h2>II.) Wellenoptik</h2>
 			</div>
-	</div>
-
-
-	<div class='section' id='Wellenoptik'>
-		<div class='content'>
-			<h2>II.) Wellenoptik</h2>
 		</div>
-	</div>
 
 
-	<div class='section' id='Elektrodynamik'>
-		<div class='content'>
-			<h2>III.) Elektrodynamik</h2>
+		<div class='section' id='Elektrodynamik'>
+			<div class='content'>
+				<h2>III.) Elektrodynamik</h2>
+			</div>
 		</div>
-	</div>
 
 
-	<div class='section' id='Quantenphysik'>
-		<div class='content'>
-			<h2>IV.) Quantenphysik</h2>
+		<div class='section' id='Quantenphysik'>
+			<div class='content'>
+				<h2>IV.) Quantenphysik</h2>
+			</div>
 		</div>
-	</div>
-</body>
+	</body>
+</html>

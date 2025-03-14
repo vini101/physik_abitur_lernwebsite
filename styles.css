@@ -1,0 +1,126 @@
+.section {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	background: #444; 
+	color: white;
+	text-align: left;
+	border-radius: 2rem;
+}
+
+a:link {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.sub-links {
+	font-size: 1.5rem;
+	margin-left: 2rem;
+}
+
+.main-links {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 2rem;
+	font-size: 3.5rem;
+}
+
+.themen-links {
+	font-size: 2.5rem;
+	margin-left: 2rem;
+}
+
+h1 {
+	font-size: 4.5rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+h3 {
+	font-size: 2rem;
+}
+
+body {
+	background: #333;
+	color: white;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
+.title-container {
+	margin-bottom: 3rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	background: #444; 
+	color: white;
+	border-radius: 2rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.title {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.content {
+	margin-top: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.sub-section {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	border-top: solid 0.125rem;
+}
+
+.formel-block {
+	background: #333;
+	margin-left: 0.25rem;
+	margin-right: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 1rem;
+}
+
+
+.link-container {
+	margin-bottom: 3rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	background: #444; 
+	color: white;
+	border-radius: 2rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	font-size: 3rem;
+}
